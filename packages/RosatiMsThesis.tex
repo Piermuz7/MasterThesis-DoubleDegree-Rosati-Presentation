@@ -1,0 +1,91 @@
+\documentclass{beamer}
+\usetheme[titlepagelogo=../img/logo-unicam,% Logo for the first page
+		  language=english,
+		  bullet=triangle,
+		  color=green,
+          secondsupervisor=true,
+          secondlogo=true,
+          %assistantsupervisor=true,
+         ]{TorinoTh}
+         
+\usepackage[beamer,customcolors]{hf-tikz}
+\hfsetfillcolor{alerted text.fg!10}
+\hfsetbordercolor{alerted text.fg}
+
+\author{Piermichele Rosati}
+\rel{Dr. Emanuele Laurenzi}
+\secondsupervisor{Prof. Michela Quadrini}
+%\assistantsupervisor{Dr. James Allan}
+\title{\textit{\small HAI-BEMS:\\A Hybrid Artificial Intelligent approach for energy consumption in\\ Building Energy Management Systems}}
+\ateneo{\scriptsize University of Camerino \\\&\\ University of Applied Sciences and Arts Northwestern Switzerland}
+\date{Ms Thesis - Intermediate Evaluation\\\today}
+\titlepagesecondlogo{../img/logo-fhnw}
+
+%%% to remove square brackets from citations %%%
+\makeatletter
+\def\@biblabel#1{}
+\renewcommand\@cite[2]{{#1\if@tempswa,\nolinebreak[3] #2\fi}}
+\makeatother
+%%%%%%
+
+\begin{document}
+
+\addtobeamertemplate{frametitle}{}{%
+\begin{tikzpicture}[remember picture,overlay]
+\node[anchor=west,yshift=-20pt] at (current page.north west) {\includegraphics[height=1.1cm]{../img/logo-unicam-notext.png}};
+\node[anchor=north east,yshift=-5pt] at (current page.north east) {\includegraphics[height=0.9cm]{../img/logo-fhnw-notext.png}};
+\end{tikzpicture}
+\vspace{-0.5cm}
+}
+
+\titlepageframe
+
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
+\setbeamercolor{section in toc}{fg=forestgreen}
+%\setbeamercolor{subsection in toc}{fg=red}
+\setbeamerfont{bibliography item}{size=\footnotesize}
+\setbeamerfont{bibliography entry author}{size=\footnotesize}
+\setbeamerfont{bibliography entry title}{size=\footnotesize}
+\setbeamerfont{bibliography entry location}{size=\footnotesize}
+\setbeamerfont{bibliography entry note}{size=\footnotesize}
+
+%%% showing outline before each section %%%
+% \AtBeginSection[]
+% {
+% \begin{frame}<beamer>
+% \frametitle{Outline}
+% \tableofcontents[currentsection]
+% \end{frame}
+% }
+
+%%% showing outline only at the beginning %%%
+\begin{tframe}{Outline}
+    \tableofcontents
+\end{tframe}
+
+\section{Introduction}
+\input{../sections/introduction/intro.tex}
+%
+\section{Problem Statement}
+\input{../sections/problem-statement/problem-statement.tex}
+%
+\section{Research Question}
+\input{../sections/research-question/research-question.tex}
+%
+\section{Working Progress}
+\input{../sections/working-progress/working-progress.tex}
+%
+% \section*{References}
+% \begin{frame}[allowframebreaks]{References}
+%     \nocite{*}
+%     \bibliographystyle{apalike}
+%     \bibliography{bibliography}
+% \end{frame}
+%
+\section{Conclusion}
+\input{../sections/conclusion/conclusion.tex}
+\input{../sections/conclusion/the-end.tex}
+
+
+\end{document}
