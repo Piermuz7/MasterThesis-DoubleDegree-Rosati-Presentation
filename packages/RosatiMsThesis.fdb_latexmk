@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber RosatiMsThesis"] 1743979267 "RosatiMsThesis.bcf" "RosatiMsThesis.bbl" "RosatiMsThesis" 1743979670
-  "RosatiMsThesis.bcf" 1743979282 108077 321e98f150419346fe9caa63c8361425 "pdflatex"
+["biber RosatiMsThesis"] 1743979267 "RosatiMsThesis.bcf" "RosatiMsThesis.bbl" "RosatiMsThesis" 1743979969
+  "RosatiMsThesis.bcf" 1743979675 108077 321e98f150419346fe9caa63c8361425 "pdflatex"
   (generated)
   "RosatiMsThesis.bbl"
   "RosatiMsThesis.blg"
-["pdflatex"] 1743979670 "/Users/piermichelerosati/Documents/MasterThesis-DoubleDegree-Rosati-Presentation/packages/RosatiMsThesis.tex" "RosatiMsThesis.pdf" "RosatiMsThesis" 1743979670
+["pdflatex"] 1743979969 "/Users/piermichelerosati/Documents/MasterThesis-DoubleDegree-Rosati-Presentation/packages/RosatiMsThesis.tex" "RosatiMsThesis.pdf" "RosatiMsThesis" 1743979969
   "../img/architecture/example-merelli.png" 1743639091 165950 f2d665ee0fc74a98316c84cbfdfd23f7 ""
   "../img/architecture/graphRAG.png" 1737910342 91705 c557dff513ed2d090603b420fb2bfeed ""
   "../img/architecture/multi-agent-agentic-rag.png" 1740041850 303481 fd610597b751f1285218bf5149f5296e ""
@@ -39,7 +39,7 @@
   "../sections/evaluation/results.tex" 1743616782 1864 b8bbb0e9b94ff83c2989b1bc21469dae ""
   "../sections/implementation/artifact-implementation.tex" 1743258018 247 354a5ff466e9aa376ca305dd5cced76b ""
   "../sections/introduction/research-collaboration.tex" 1743761128 736 10c2fdab2fd88abaf6bf7689e2646f75 ""
-  "../sections/literature-review/related-work.tex" 1743772893 991 64ace95ac4776bc9d2f6884246bc811d ""
+  "../sections/literature-review/related-work.tex" 1743979963 992 a20c5e07de82abc2c3823c0830a133f8 ""
   "../sections/problem-statement/problem-statement.tex" 1743855165 910 d63d1b02949588280f8a0401c8accbb7 ""
   "../sections/research-design/dsr.tex" 1743772321 309 f4ce043f949ae1bcfc7f1d2f0712f992 ""
   "../sections/research-questions/research-questions.tex" 1743713741 893 7be43be5a302416fec31973ef0430014 ""
@@ -341,12 +341,12 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668029035 2826439 1254cdba43bee2952e6671a91c6344fd ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "RosatiMsThesis.aux" 1743979670 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "RosatiMsThesis.aux" 1743979969 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "RosatiMsThesis.bbl" 1743979269 31588 8557188797872febb60158f1bf2809fe "biber RosatiMsThesis"
-  "RosatiMsThesis.glsdefs" 1743979669 13566 65e0b0e696b289c95dd39544d79fbefd "pdflatex"
-  "RosatiMsThesis.nav" 1743979669 4319 3c676b24b8979ac9319c1b348d4509ae "pdflatex"
+  "RosatiMsThesis.glsdefs" 1743979968 13566 65e0b0e696b289c95dd39544d79fbefd "pdflatex"
+  "RosatiMsThesis.nav" 1743979968 4319 3c676b24b8979ac9319c1b348d4509ae "pdflatex"
   "RosatiMsThesis.out" 0 -1 0 "pdflatex"
-  "RosatiMsThesis.run.xml" 1743979669 2377 da19fbc65962e502d3c502e1abb79c87 "pdflatex"
+  "RosatiMsThesis.run.xml" 1743979968 2377 da19fbc65962e502d3c502e1abb79c87 "pdflatex"
   "RosatiMsThesis.tex" 1743979664 4941 9afb934b1b69616760cecaf1bbc36be9 ""
   "beamercolorthemetorinoth.sty" 1739235507 3907 e27c3774ddd2cc3444958a5b9f661ff9 ""
   "beamerfontthemetorinoth.sty" 1714715088 698 c2e6dd9dc543b22b93374ecb13a35f12 ""
