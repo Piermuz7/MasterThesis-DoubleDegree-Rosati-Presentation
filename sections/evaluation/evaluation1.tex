@@ -1,0 +1,20 @@
+\begin{tframe}{Evaluation}
+\textbf{Goal:} Evaluate the performance of the Agentic Graph \gls{rag} pipeline for collaborator and consortia recommendations.
+
+\vspace{0.5em}
+
+    \textbf{Evaluation Framework:} \gls{ragas}~\cite{ragas2024}
+    \begin{itemize}
+    \item Assesses both \textbf{retriever} and \textbf{generator} components
+    \item Quantitative evaluation using automatic \gls{llm}-based metrics
+    \end{itemize}
+
+    \vspace{0.5em}
+
+    \textbf{Retriever Metrics:}
+    \begin{itemize}
+    \item \textbf{\gls{cp}}: relevant chunks at top ranks
+    \item \textbf{\gls{cr}}: how well context supports the answer
+    \item \textbf{\gls{cer}}: entity overlap between ground truth and retrieved context
+    \end{itemize}
+\end{tframe}

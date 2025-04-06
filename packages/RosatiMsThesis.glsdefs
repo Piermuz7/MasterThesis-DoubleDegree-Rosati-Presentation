@@ -1,0 +1,616 @@
+\glsdefs@newdocentry{srq}%
+{%
+name={SRQ},%
+sort={SRQ},%
+type={main},%
+first={Sub-Research Question\glsspace (SRQ)},%
+firstplural={Sub-Research Question\acrpluralsuffix \glsspace (SRQ\acrpluralsuffix )},%
+text={SRQ},%
+plural={SRQ\acrpluralsuffix },%
+description={Sub-Research Question},%
+descriptionplural={Sub-Research Question\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Sub-Research Question},%
+longplural={Sub-Research Questions},%
+short={SRQ},%
+shortplural={SRQs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{kg}%
+{%
+name={KG},%
+sort={KG},%
+type={main},%
+first={Knowledge Graph\glsspace (KG)},%
+firstplural={Knowledge Graph\acrpluralsuffix \glsspace (KG\acrpluralsuffix )},%
+text={KG},%
+plural={KG\acrpluralsuffix },%
+description={Knowledge Graph},%
+descriptionplural={Knowledge Graph\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Knowledge Graph},%
+longplural={Knowledge Graphs},%
+short={KG},%
+shortplural={KGs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ai}%
+{%
+name={AI},%
+sort={AI},%
+type={main},%
+first={Artifical Intelligence\glsspace (AI)},%
+firstplural={Artifical Intelligence\acrpluralsuffix \glsspace (AI\acrpluralsuffix )},%
+text={AI},%
+plural={AI\acrpluralsuffix },%
+description={Artifical Intelligence},%
+descriptionplural={Artifical Intelligence\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Artifical Intelligence},%
+longplural={Artifical Intelligences},%
+short={AI},%
+shortplural={AIs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{llm}%
+{%
+name={LLM},%
+sort={LLM},%
+type={main},%
+first={Large Language Model\glsspace (LLM)},%
+firstplural={Large Language Model\acrpluralsuffix \glsspace (LLM\acrpluralsuffix )},%
+text={LLM},%
+plural={LLM\acrpluralsuffix },%
+description={Large Language Model},%
+descriptionplural={Large Language Model\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Large Language Model},%
+longplural={Large Language Models},%
+short={LLM},%
+shortplural={LLMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{dnn}%
+{%
+name={DNN},%
+sort={DNN},%
+type={main},%
+first={Deep Neural Network\glsspace (DNN)},%
+firstplural={Deep Neural Network\acrpluralsuffix \glsspace (DNN\acrpluralsuffix )},%
+text={DNN},%
+plural={DNN\acrpluralsuffix },%
+description={Deep Neural Network},%
+descriptionplural={Deep Neural Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Deep Neural Network},%
+longplural={Deep Neural Networks},%
+short={DNN},%
+shortplural={DNNs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{rag}%
+{%
+name={RAG},%
+sort={RAG},%
+type={main},%
+first={Retrieval Augmented Generation\glsspace (RAG)},%
+firstplural={Retrieval Augmented Generation\acrpluralsuffix \glsspace (RAG\acrpluralsuffix )},%
+text={RAG},%
+plural={RAG\acrpluralsuffix },%
+description={Retrieval Augmented Generation},%
+descriptionplural={Retrieval Augmented Generation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Retrieval Augmented Generation},%
+longplural={Retrieval Augmented Generations},%
+short={RAG},%
+shortplural={RAGs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cbf}%
+{%
+name={CBF},%
+sort={CBF},%
+type={main},%
+first={Content-Based Filtering\glsspace (CBF)},%
+firstplural={Content-Based Filtering\acrpluralsuffix \glsspace (CBF\acrpluralsuffix )},%
+text={CBF},%
+plural={CBF\acrpluralsuffix },%
+description={Content-Based Filtering},%
+descriptionplural={Content-Based Filtering\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Content-Based Filtering},%
+longplural={Content-Based Filterings},%
+short={CBF},%
+shortplural={CBFs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cf}%
+{%
+name={CF},%
+sort={CF},%
+type={main},%
+first={Collaborative Filtering\glsspace (CF)},%
+firstplural={Collaborative Filtering\acrpluralsuffix \glsspace (CF\acrpluralsuffix )},%
+text={CF},%
+plural={CF\acrpluralsuffix },%
+description={Collaborative Filtering},%
+descriptionplural={Collaborative Filtering\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Collaborative Filtering},%
+longplural={Collaborative Filterings},%
+short={CF},%
+shortplural={CFs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{recsys}%
+{%
+name={RecSys},%
+sort={RecSys},%
+type={main},%
+first={Recommender System\glsspace (RecSys)},%
+firstplural={Recommender System\acrpluralsuffix \glsspace (RecSys\acrpluralsuffix )},%
+text={RecSys},%
+plural={RecSys\acrpluralsuffix },%
+description={Recommender System},%
+descriptionplural={Recommender System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Recommender System},%
+longplural={Recommender Systems},%
+short={RecSys},%
+shortplural={RecSyss},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cordis}%
+{%
+name={CORDIS},%
+sort={CORDIS},%
+type={main},%
+first={Community Research and Development Information Service\glsspace (CORDIS)},%
+firstplural={Community Research and Development Information Service\acrpluralsuffix \glsspace (CORDIS\acrpluralsuffix )},%
+text={CORDIS},%
+plural={CORDIS\acrpluralsuffix },%
+description={Community Research and Development Information Service},%
+descriptionplural={Community Research and Development Information Service\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Community Research and Development Information Service},%
+longplural={Community Research and Development Information Services},%
+short={CORDIS},%
+shortplural={CORDISs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{fp7}%
+{%
+name={FP7},%
+sort={FP7},%
+type={main},%
+first={Seventh Framework Programme\glsspace (FP7)},%
+firstplural={Seventh Framework Programme\acrpluralsuffix \glsspace (FP7\acrpluralsuffix )},%
+text={FP7},%
+plural={FP7\acrpluralsuffix },%
+description={Seventh Framework Programme},%
+descriptionplural={Seventh Framework Programme\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Seventh Framework Programme},%
+longplural={Seventh Framework Programmes},%
+short={FP7},%
+shortplural={FP7s},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{h2020}%
+{%
+name={H2020},%
+sort={H2020},%
+type={main},%
+first={Horizon 2020\glsspace (H2020)},%
+firstplural={Horizon 2020\acrpluralsuffix \glsspace (H2020\acrpluralsuffix )},%
+text={H2020},%
+plural={H2020\acrpluralsuffix },%
+description={Horizon 2020},%
+descriptionplural={Horizon 2020\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Horizon 2020},%
+longplural={Horizon 2020s},%
+short={H2020},%
+shortplural={H2020s},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{eurio}%
+{%
+name={EURIO},%
+sort={EURIO},%
+type={main},%
+first={EUropean Research Information Ontology\glsspace (EURIO)},%
+firstplural={EUropean Research Information Ontology\acrpluralsuffix \glsspace (EURIO\acrpluralsuffix )},%
+text={EURIO},%
+plural={EURIO\acrpluralsuffix },%
+description={EUropean Research Information Ontology},%
+descriptionplural={EUropean Research Information Ontology\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={EUropean Research Information Ontology},%
+longplural={EUropean Research Information Ontologys},%
+short={EURIO},%
+shortplural={EURIOs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{dsr}%
+{%
+name={DSR},%
+sort={DSR},%
+type={main},%
+first={Design Science Research\glsspace (DSR)},%
+firstplural={Design Science Research\acrpluralsuffix \glsspace (DSR\acrpluralsuffix )},%
+text={DSR},%
+plural={DSR\acrpluralsuffix },%
+description={Design Science Research},%
+descriptionplural={Design Science Research\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Design Science Research},%
+longplural={Design Science Researchs},%
+short={DSR},%
+shortplural={DSRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ar}%
+{%
+name={AR},%
+sort={AR},%
+type={main},%
+first={Answer Relevancy\glsspace (AR)},%
+firstplural={Answer Relevancy\acrpluralsuffix \glsspace (AR\acrpluralsuffix )},%
+text={AR},%
+plural={AR\acrpluralsuffix },%
+description={Answer Relevancy},%
+descriptionplural={Answer Relevancy\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Answer Relevancy},%
+longplural={Answer Relevancys},%
+short={AR},%
+shortplural={ARs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cp}%
+{%
+name={CP},%
+sort={CP},%
+type={main},%
+first={Context Precision\glsspace (CP)},%
+firstplural={Context Precision\acrpluralsuffix \glsspace (CP\acrpluralsuffix )},%
+text={CP},%
+plural={CP\acrpluralsuffix },%
+description={Context Precision},%
+descriptionplural={Context Precision\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Context Precision},%
+longplural={Context Precisions},%
+short={CP},%
+shortplural={CPs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cr}%
+{%
+name={CR},%
+sort={CR},%
+type={main},%
+first={Context Recall\glsspace (CR)},%
+firstplural={Context Recall\acrpluralsuffix \glsspace (CR\acrpluralsuffix )},%
+text={CR},%
+plural={CR\acrpluralsuffix },%
+description={Context Recall},%
+descriptionplural={Context Recall\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Context Recall},%
+longplural={Context Recalls},%
+short={CR},%
+shortplural={CRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cer}%
+{%
+name={CER},%
+sort={CER},%
+type={main},%
+first={Context Entity Recall\glsspace (CER)},%
+firstplural={Context Entity Recall\acrpluralsuffix \glsspace (CER\acrpluralsuffix )},%
+text={CER},%
+plural={CER\acrpluralsuffix },%
+description={Context Entity Recall},%
+descriptionplural={Context Entity Recall\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Context Entity Recall},%
+longplural={Context Entity Recalls},%
+short={CER},%
+shortplural={CERs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ss}%
+{%
+name={SS},%
+sort={SS},%
+type={main},%
+first={Answer Semantic Similarity\glsspace (SS)},%
+firstplural={Answer Semantic Similarity\acrpluralsuffix \glsspace (SS\acrpluralsuffix )},%
+text={SS},%
+plural={SS\acrpluralsuffix },%
+description={Answer Semantic Similarity},%
+descriptionplural={Answer Semantic Similarity\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Answer Semantic Similarity},%
+longplural={Answer Semantic Similaritys},%
+short={SS},%
+shortplural={SSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ac}%
+{%
+name={AC},%
+sort={AC},%
+type={main},%
+first={Answer Correctness\glsspace (AC)},%
+firstplural={Answer Correctness\acrpluralsuffix \glsspace (AC\acrpluralsuffix )},%
+text={AC},%
+plural={AC\acrpluralsuffix },%
+description={Answer Correctness},%
+descriptionplural={Answer Correctness\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Answer Correctness},%
+longplural={Answer Correctnesss},%
+short={AC},%
+shortplural={ACs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ragas}%
+{%
+name={RAGAs},%
+sort={RAGAs},%
+type={main},%
+first={Retrieval-Augmented Generation Assessment\glsspace (RAGAs)},%
+firstplural={Retrieval-Augmented Generation Assessment\acrpluralsuffix \glsspace (RAGAs\acrpluralsuffix )},%
+text={RAGAs},%
+plural={RAGAs\acrpluralsuffix },%
+description={Retrieval-Augmented Generation Assessment},%
+descriptionplural={Retrieval-Augmented Generation Assessment\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Retrieval-Augmented Generation Assessment},%
+longplural={Retrieval-Augmented Generation Assessments},%
+short={RAGAs},%
+shortplural={RAGAss},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{rdf}%
+{%
+name={RDF},%
+sort={RDF},%
+type={main},%
+first={Resource Description Framework\glsspace (RDF)},%
+firstplural={Resource Description Framework\acrpluralsuffix \glsspace (RDF\acrpluralsuffix )},%
+text={RDF},%
+plural={RDF\acrpluralsuffix },%
+description={Resource Description Framework},%
+descriptionplural={Resource Description Framework\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Resource Description Framework},%
+longplural={Resource Description Frameworks},%
+short={RDF},%
+shortplural={RDFs},%
+counter={page},%
+parent={},%
+%
+}%
+

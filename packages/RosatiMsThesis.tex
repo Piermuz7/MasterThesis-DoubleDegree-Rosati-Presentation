@@ -5,20 +5,25 @@
 		  color=green,
           secondsupervisor=true,
           secondlogo=true,
-          %assistantsupervisor=true,
+          assistantsupervisor=true,
          ]{TorinoTh}
-         
 \usepackage[beamer,customcolors]{hf-tikz}
+\usepackage{glossaries}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}  % Use numbered citations
+\usepackage{csquotes}
+\usetikzlibrary{shapes.geometric, arrows, positioning, fit}
+
 \hfsetfillcolor{alerted text.fg!10}
 \hfsetbordercolor{alerted text.fg}
 
 \author{Piermichele Rosati}
-\rel{Dr. Emanuele Laurenzi}
-\secondsupervisor{Prof. Michela Quadrini}
-%\assistantsupervisor{Dr. James Allan}
-\title{\textit{\small HAI-BEMS:\\A Hybrid Artificial Intelligent approach for energy consumption in\\ Building Energy Management Systems}}
+\rel{Prof. Emanuele Laurenzi}
+\assistantsupervisor{Prof. Michela Quadrini}
+\title{\small \textit{A Hybrid AI Approach for Recommending Collaborators in Research Projects}}
 \ateneo{\scriptsize University of Camerino \\\&\\ University of Applied Sciences and Arts Northwestern Switzerland}
-\date{Ms Thesis - Intermediate Evaluation\\\today}
+\date{\textit{MSc in Computer Science and Business Information Systems}\\\today}
 \titlepagesecondlogo{../img/logo-fhnw}
 
 %%% to remove square brackets from citations %%%
@@ -27,6 +32,23 @@
 \renewcommand\@cite[2]{{#1\if@tempswa,\nolinebreak[3] #2\fi}}
 \makeatother
 %%%%%%
+
+% Ensure no color formatting is applied to glossary terms
+\renewcommand*{\glstextformat}[1]{\textcolor{black}{#1}}
+
+\glsdisablehyper
+
+\renewcommand*{\bibfont}{\tiny}
+\addbibresource{bibliography.bib}
+
+% Fix citation color to black
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, 
+    urlcolor=black, 
+    linkcolor=black, 
+    citecolor=black  % Ensures citations are black
+}
 
 \begin{document}
 
@@ -44,11 +66,35 @@
 \setbeamertemplate{subsection in toc}[subsections numbered]
 \setbeamercolor{section in toc}{fg=forestgreen}
 %\setbeamercolor{subsection in toc}{fg=red}
-\setbeamerfont{bibliography item}{size=\footnotesize}
-\setbeamerfont{bibliography entry author}{size=\footnotesize}
-\setbeamerfont{bibliography entry title}{size=\footnotesize}
-\setbeamerfont{bibliography entry location}{size=\footnotesize}
-\setbeamerfont{bibliography entry note}{size=\footnotesize}
+\definecolor{black}{rgb}{0,0,0}
+\setbeamercolor{bibliography entry author}{fg=black}
+\setbeamercolor{bibliography entry title}{fg=black}
+\setbeamercolor{bibliography entry journal}{fg=black}
+\setbeamercolor{bibliography item}{fg=black}
+\setbeamercolor{cite}{fg=black}
+
+\newacronym{srq}{SRQ}{Sub-Research Question}
+\newacronym{kg}{KG}{Knowledge Graph}
+\newacronym{ai}{AI}{Artifical Intelligence}
+\newacronym{llm}{LLM}{Large Language Model}
+\newacronym{dnn}{DNN}{Deep Neural Network}
+\newacronym{rag}{RAG}{Retrieval Augmented Generation}
+\newacronym{cbf}{CBF}{Content-Based Filtering}
+\newacronym{cf}{CF}{Collaborative Filtering}
+\newacronym{recsys}{RecSys}{Recommender System}
+\newacronym{cordis}{CORDIS}{Community Research and Development Information Service}
+\newacronym{fp7}{FP7}{Seventh Framework Programme}
+\newacronym{h2020}{H2020}{Horizon 2020}
+\newacronym{eurio}{EURIO}{EUropean Research Information Ontology}
+\newacronym{dsr}{DSR}{Design Science Research}
+\newacronym{ar}{AR}{Answer Relevancy}
+\newacronym{cp}{CP}{Context Precision}
+\newacronym{cr}{CR}{Context Recall}
+\newacronym{cer}{CER}{Context Entity Recall}
+\newacronym{ss}{SS}{Answer Semantic Similarity}
+\newacronym{ac}{AC}{Answer Correctness}
+\newacronym{ragas}{RAGAs}{Retrieval-Augmented Generation Assessment}
+\newacronym{rdf}{RDF}{Resource Description Framework}
 
 %%% showing outline before each section %%%
 % \AtBeginSection[]
@@ -60,32 +106,49 @@
 % }
 
 %%% showing outline only at the beginning %%%
-\begin{tframe}{Outline}
-    \tableofcontents
-\end{tframe}
+%\begin{tframe}{Outline}
+%    \tableofcontents
+%\end{tframe}
 
 \section{Introduction}
-\input{../sections/introduction/intro.tex}
+\input{../sections/introduction/research-collaboration.tex}
+%
+%\section{Literature Review}
+%\input{../sections/literature-review/literature-review.tex}
+\section{Related Work}
+\input{../sections/literature-review/related-work.tex}
 %
 \section{Problem Statement}
 \input{../sections/problem-statement/problem-statement.tex}
 %
-\section{Research Question}
-\input{../sections/research-question/research-question.tex}
+\section{Research Questions}
+\input{../sections/research-questions/research-questions.tex}
 %
-\section{Working Progress}
-\input{../sections/working-progress/working-progress.tex}
+%\section{State of the Art}
+%\input{../sections/state-of-the-art/state-of-the-art.tex}
+\section{Research Design}
+\input{../sections/research-design/dsr.tex}
 %
-% \section*{References}
-% \begin{frame}[allowframebreaks]{References}
-%     \nocite{*}
-%     \bibliographystyle{apalike}
-%     \bibliography{bibliography}
-% \end{frame}
+\section{Dataset}
+\input{../sections/scenario-analysis/dataset.tex}
+%
+\section{Artifact Design}
+\input{../sections/architecture/architecture.tex}
+%
+\section{Technology stack}
+\input{../sections/implementation/artifact-implementation.tex}
+%
+\section{Evaluation}
+\input{../sections/evaluation/evaluation.tex}
 %
 \section{Conclusion}
-\input{../sections/conclusion/conclusion.tex}
-\input{../sections/conclusion/the-end.tex}
-
-
+\input{../sections/conclusion/conclusions.tex}
+\section*{References}
+{
+\setbeamertemplate{footline}{} % Disable footer just for this frame
+\begin{frame}[allowframebreaks,noframenumbering]{References}
+    %\nocite{*}
+    \printbibliography
+\end{frame}
+}
 \end{document}

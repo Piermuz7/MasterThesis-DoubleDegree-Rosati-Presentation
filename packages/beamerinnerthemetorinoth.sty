@@ -139,7 +139,7 @@
 		   \renewcommand\beamer@torinoth@superv{Relatori}%
 		 \else%
 		    \ifx\beamer@torinoth@language\beamer@torinoth@englishtext%
-		      \renewcommand\beamer@torinoth@superv{Supervisors}%
+		      \renewcommand\beamer@torinoth@superv{\textbf{FHNW Supervisor}}%
 		    \else%
 		      \def\setrellabel#1{\gdef\@setrellab{#1}}%
             \def\@setrellab{\PackageError{Beamer2Thesis}%
@@ -173,7 +173,7 @@
 		   \renewcommand\beamer@torinoth@assistantsupervisorlabel{Correlatori}%
 		 \else%
 		    \ifx\beamer@torinoth@language\beamer@torinoth@englishtext%
-		      \renewcommand\beamer@torinoth@assistantsupervisorlabel{Assistant Supervisors}%
+		      \renewcommand\beamer@torinoth@assistantsupervisorlabel{Unicam Supervisors}%
 	       \else%
 		      \def\setassistentsupervisorlabel#1{\gdef\@setassistentsupervlab{#1}}%
             \def\@setassistentsupervlab{\PackageError{Beamer2Thesis}%
@@ -189,7 +189,7 @@
 		   \renewcommand\beamer@torinoth@assistantsupervisorlabel{Correlatore}%
 		 \else%
 		    \ifx\beamer@torinoth@language\beamer@torinoth@englishtext%
-		      \renewcommand\beamer@torinoth@assistantsupervisorlabel{Assistant Supervisor}%
+		      \renewcommand\beamer@torinoth@assistantsupervisorlabel{\textbf{UNICAM Supervisor}}%
 	       \else%
 		      \def\setassistentsupervisorlabel#1{\gdef\@setassistentsupervlab{#1}}%
             \def\@setassistentsupervlab{\PackageError{Beamer2Thesis}%
@@ -226,7 +226,7 @@
 		    \renewcommand\beamer@torinoth@cand{Candidato}%
 		 \else  
 	       \ifx\beamer@torinoth@language\beamer@torinoth@englishtext%
-	         \renewcommand\beamer@torinoth@cand{Candidate}%
+	         \renewcommand\beamer@torinoth@cand{\textbf{Candidate}}%
 	       \else%
 		      \def\setcandidatelabel#1{\gdef\@setcandlab{#1}}%
             \def\@setcandlab{\PackageError{Beamer2Thesis}%
